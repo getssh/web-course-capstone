@@ -32,7 +32,7 @@
   margin-bottom: 0;
   color: #ec5242;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .top-title {
@@ -131,29 +131,30 @@
 
 .speaker {
   display: flex;
-  width: 100%;
 }
 
 .img-wrap {
   width: 100%;
   height: auto;
   padding: 2rem 1rem 0 1rem;
+  margin-top: 1rem;
   align-self: stretch;
   background-image: url('./images/black-white.jpg');
   background-position: top left;
-  background-size: 40%;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 
 .speaker-image {
   width: 100%;
-  min-height: 50%;
-  padding: 0;
-  margin: 0;
+  height: auto;
+  position: relative;
+  top: -1.2rem;
+  left: -0.5rem;
 }
 
 .speaker-bio p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .speaker-bio h3 {
