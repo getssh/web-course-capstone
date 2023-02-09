@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Poppins&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.top-header {
+  background-image: linear-gradient(rgba(230, 230, 230, 0.9), rgba(255, 255, 255, 0.9)), url('images/web-bg.jpg');
+  background-position: center;
+  padding: 1.2rem;
+}
+
+.humberger-menu {
+  margin-bottom: 2rem;
+}
+
+.slogan {
+  margin-bottom: 0;
+  color: #ec5243;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.top-title {
+  color: #ec5243;
+  font-weight: 900;
+}
+
+.disc-wrapper {
+  border: 2px solid #fff;
+  margin: 2rem 0;
+}
+
+.web-description {
+  color: #272a31;
+  padding: 0.8rem;
+  background-color: rgb(220, 220, 220);
+}
+
+.time {
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+.location {
+  color: #272a31;
+  font-weight: 450;
+  padding-bottom: 5rem;
+}
+
+.sec-title {
+  text-align: center;
+}
+
+.programs {
+  background-image: url('./images/programs-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.program {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.8rem 0.8rem 0.3rem 0.3rem;
+}
+
+.program-description {
+  font-size: 0.8rem;
+  align-self: flex-end;
+}
+
+.program-title {
+  align-self: center;
+  font-size: 1.2rem;
+  color: #ec5243;
+}
+/* .linee {
+  background-color: #fff;
+  width: 85%;
+  overflow: hidden;
+  height: 1px;
+  position: absolute;
+  margin-top: -1.5rem;
+}
+
+.close:hover {
+  cursor: pointer;
+} */
