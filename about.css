@@ -1,0 +1,150 @@
+.slog-about {
+  text-align: center;
+}
+
+.top-title-about {
+  text-align: center;
+  font-weight: 800;
+}
+
+.top-desc-about {
+  text-align: center;
+}
+
+.contact-about {
+  text-align: center;
+}
+
+.email-about {
+  text-align: center;
+  font-weight: 700;
+  margin-top: -0.9rem;
+}
+
+.underline {
+  width: 15%;
+  margin: 0 40%;
+  color: #ec5242;
+  opacity: 0.8;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ec5242;
+}
+
+.about-section {
+  padding: 1.5rem;
+}
+
+.abt-sub-title, .abt-title {
+  text-align: center;
+}
+
+.about-section p {
+  color: #333;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.about-image {
+  border: 1px solid #d3d3d3;
+}
+
+.my-image {
+  width: 90%;
+}
+
+.about-gallery {
+  padding: 1.5rem;
+}
+
+.gallery-title {
+  text-align: center;
+}
+
+.about-gallery p {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.my-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.my-gallery h2, .my-gallery h3 {
+  text-align: center;
+  color: #fff;
+}
+
+.my-gallery h2 {
+  font-weight: 700;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.my-gallery h3 {
+  font-size: 1.2rem;
+}
+
+.image-one {
+  padding: 3rem 2rem;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.9), rgba(236, 82, 66, 0.9)), url('images/about-image-1.jpg');
+  background-position: center;
+}
+
+.image-two {
+  padding: 3rem 2rem;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.9), rgba(236, 82, 66, 0.9)), url('images/about-image-2.jpg');
+  background-position: center;
+}
+
+footer {
+  padding: 1.5rem;
+  margin: 0;
+}
+
+.partner-wrap {
+  background-color: #333;
+  padding: 2rem 1rem;
+}
+
+.partner {
+  color: #fff;
+  text-align: center;
+}
+
+.partner-imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.partner-imgs img {
+  width: 8rem;
+  min-height: 1rem;
+  max-height: 5rem;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.footer-logo {
+  width: 50%;
+  padding-top: 0;
+}
+
+.footer-logo img {
+  width: 100%;
+}
+
+.foot-title {
+  margin-top: 2rem;
+  margin-bottom: -0.1rem;
+}
