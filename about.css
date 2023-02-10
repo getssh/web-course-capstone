@@ -152,7 +152,27 @@ footer {
   padding-top: 2rem;
 }
 
+.social {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
+  .social {
+    display: block;
+    padding: 0.5rem 5rem 0.1rem 5rem;
+    background-color: #272a27;
+  }
+
+  .social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1rem;
+    color: #fff;
+  }
+
   .humberger-menu {
     display: none;
   }
