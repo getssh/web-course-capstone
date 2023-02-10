@@ -103,6 +103,10 @@
   padding: 0.8rem 0.8rem 0.3rem 0.3rem;
 }
 
+.program:hover {
+  border: 2px solid #fff;
+}
+
 .program-description {
   font-size: 0.8rem;
   align-self: flex-end;
@@ -259,7 +263,27 @@ footer {
   display: none;
 }
 
+.social {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
+  .social {
+    display: block;
+    padding: 0.5rem 5rem 0.1rem 5rem;
+    background-color: #262926;
+  }
+
+  .social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1rem;
+    color: #fff;
+  }
+
   .humberger-menu {
     display: none;
   }
@@ -285,6 +309,7 @@ footer {
   .logo {
     width: 8rem;
   }
+
   .nav-lists {
     align-self: flex-start;
     list-style-type: none;
@@ -294,6 +319,20 @@ footer {
     flex-wrap:nowrap;
     gap: 2rem;
     margin-top: 1rem;
+  }
+
+  .nav-lists a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #272a27;
+  }
+
+  .nav-lists a:hover {
+    color: #ec5242;
+  }
+
+  .nav-lists a:active {
+    color: #ec5242;
   }
 
   .register {
@@ -415,7 +454,7 @@ footer {
   }
 }
 
-@media screen and ((min-width: 768px) and (max-width: 1050px)) {
+@media screen and ((min-width: 768px) and (max-width: 1200px)) {
   .header-content {
     padding: 5rem 2rem;
   }
