@@ -35,7 +35,8 @@
   padding: 1.5rem;
 }
 
-.abt-sub-title, .abt-title {
+.abt-sub-title,
+.abt-title {
   text-align: center;
 }
 
@@ -76,7 +77,8 @@
   gap: 2rem;
 }
 
-.my-gallery h2, .my-gallery h3 {
+.my-gallery h2,
+.my-gallery h3 {
   text-align: center;
   color: #fff;
 }
@@ -202,13 +204,14 @@ footer {
   .logo {
     width: 8rem;
   }
+
   .nav-lists {
     align-self: flex-start;
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     gap: 2rem;
     margin-top: 1rem;
   }
@@ -220,7 +223,6 @@ footer {
     color: #ec5242;
     margin-left: 1rem;
     align-self: center;
-  
   }
 
   .header-content {
@@ -299,7 +301,7 @@ footer {
   }
 }
 
-@media screen and ((min-width: 768px) and (max-width: 1050px)) {
+@media screen and (min-width: 768px) and (max-width: 1050px) {
   .header-content {
     padding: 5rem 2rem;
   }
@@ -343,5 +345,4 @@ footer {
   .footer-logo img {
     width: 8rem;
   }
-
 }

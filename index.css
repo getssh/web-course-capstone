@@ -10,13 +10,13 @@
 }
 
 .humberger-menu {
-  height: fit-content;
   width: 60%;
   background-color: #555;
   color: #fff;
   position: absolute;
   z-index: 5;
   display: none;
+  margin-bottom: 2rem;
 }
 
 .close {
@@ -43,10 +43,6 @@
   text-align: center;
   margin: auto;
   margin-bottom: 0.5rem;
-}
-
-.humberger-menu {
-  margin-bottom: 2rem;
 }
 
 .humberger-menu a {
@@ -323,7 +319,8 @@ footer {
     color: #fff;
   }
 
-  .humberger-menu, .menu-icon {
+  .humberger-menu,
+  .menu-icon {
     display: none;
   }
 
@@ -355,7 +352,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     gap: 2rem;
     margin-top: 1rem;
   }
@@ -381,7 +378,6 @@ footer {
     color: #ec5242;
     margin-left: 1rem;
     align-self: center;
-  
   }
 
   .header-content {
@@ -494,7 +490,7 @@ footer {
   }
 }
 
-@media screen and ((min-width: 768px) and (max-width: 1200px)) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .header-content {
     padding: 5rem 2rem;
   }
