@@ -6,7 +6,6 @@
 }
 
 .fa-bars {
-  display: block;
   padding-bottom: 4rem;
 }
 
@@ -46,6 +45,10 @@
   margin-bottom: 0.5rem;
 }
 
+.humberger-menu {
+  margin-bottom: 2rem;
+}
+
 .humberger-menu a {
   color: #fff;
   text-decoration: none;
@@ -61,10 +64,6 @@
   background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 1)), url('images/web-bg.jpg');
   background-position: center;
   padding: 1.2rem;
-}
-
-.humberger-menu {
-  margin-bottom: 2rem;
 }
 
 .slogan {
@@ -138,6 +137,7 @@
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 0.8rem 0.8rem 0.3rem 0.3rem;
 }
@@ -323,11 +323,7 @@ footer {
     color: #fff;
   }
 
-  .humberger-menu {
-    display: none;
-  }
-
-  .fa-bars {
+  .humberger-menu, .menu-icon {
     display: none;
   }
 
@@ -419,6 +415,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 15rem;
   }
 
   .top-btn {

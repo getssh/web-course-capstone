@@ -163,6 +163,10 @@ footer {
     background-color: #272a27;
   }
 
+  .menu-icon {
+    display: none;
+  }
+
   .social-icons {
     list-style-type: none;
     display: flex;
