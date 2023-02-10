@@ -28,6 +28,8 @@
 
 This is a mock website for an online web devlopment course giving company.
 
+<a href="https://www.loom.com/share/3db7cb933f16446ca79dd553370f2514">Loom Video Link</a>
+
 **[Capstone, Online web course]** This is a mock website for an online web devlopment course giving company. The website is responsive and daynamic.
 
 ## 🛠 Built With <a name="built-with"></a>
