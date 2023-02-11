@@ -233,10 +233,11 @@
 footer {
   padding: 1.5rem;
   margin: 0;
+  display: none;
 }
 
 .partner-wrap {
-  background-color: #333;
+  background-color: #414246;
   padding: 2rem 1rem;
 }
 
@@ -470,9 +471,13 @@ footer {
     padding-bottom: 2rem;
   }
 
-  .partner-imgs img {
+  .partner-imgs .part-img {
     width: 10rem;
     height: 2rem;
+  }
+
+  footer {
+    display: block;
   }
 
   .foot {
