@@ -105,7 +105,6 @@
 }
 
 footer {
-  padding: 1.5rem;
   margin: 0;
   display: block;
 }
@@ -149,6 +148,7 @@ footer {
 
 .footer-logo img {
   width: 10rem;
+  padding-left: 1rem;
 }
 
 .foot-title {
