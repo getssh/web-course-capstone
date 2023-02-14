@@ -177,6 +177,12 @@
 }
 
 .speaker {
+  display: none;
+}
+
+.speaker:first-child,
+.speaker:nth-child(2),
+.speaker:nth-child(3) {
   display: flex;
 }
 
@@ -232,7 +238,8 @@
 
 footer {
   margin: 0;
-  display: none;
+
+  /* display: none; */
 }
 
 .partner-wrap {
@@ -420,9 +427,13 @@ footer {
 
   .desk-program-btn {
     display: block;
+    color: #fff;
     text-align: center;
     padding: 3rem 0;
-    text-decoration: underline;
+  }
+
+  .speaker {
+    display: flex;
   }
 
   .mobile-btn {

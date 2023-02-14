@@ -69,5 +69,13 @@ for (let i = 0; i < speakersData.length; i += 1) {
   `;
   speakers += tempData;
 }
-
 allSpeakers.innerHTML = speakers;
+
+const eachSpeaker = document.querySelectorAll('.speaker');
+const seeMoreBtn = document.querySelector('.mobile-btn');
+
+seeMoreBtn.addEventListener('click', () => {
+  for (let i = 0; i < eachSpeaker.length; i += 1) {
+    eachSpeaker[i].style.display = 'flex';
+  }
+});
