@@ -181,8 +181,7 @@
 }
 
 .speaker:first-child,
-.speaker:nth-child(2),
-.speaker:nth-child(3) {
+.speaker:nth-child(2) {
   display: flex;
 }
 
@@ -224,16 +223,22 @@
   margin-top: 0;
 }
 
-.fa-angle-down {
+.fa-angle-down,
+.fa-angle-up {
   padding: 1rem;
   color: #ec5242;
   font-weight: bold;
 }
 
-.mobile-btn {
+.mobile-btn,
+.mobile-less-btn {
   background: transparent;
   border: 1px solid #000;
   text-transform: uppercase;
+}
+
+.mobile-less-btn {
+  display: none;
 }
 
 footer {
@@ -432,11 +437,16 @@ footer {
     padding: 3rem 0;
   }
 
+  .desk-program-btn:hover {
+    color: #ec5242;
+  }
+
   .speaker {
     display: flex;
   }
 
-  .mobile-btn {
+  .mobile-btn,
+  .mobile-less-btn {
     display: none;
   }
 

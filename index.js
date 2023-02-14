@@ -73,9 +73,22 @@ allSpeakers.innerHTML = speakers;
 
 const eachSpeaker = document.querySelectorAll('.speaker');
 const seeMoreBtn = document.querySelector('.mobile-btn');
+const seeLessBtn = document.querySelector('.mobile-less-btn');
 
 seeMoreBtn.addEventListener('click', () => {
   for (let i = 0; i < eachSpeaker.length; i += 1) {
     eachSpeaker[i].style.display = 'flex';
   }
+  seeMoreBtn.style.display = 'none';
+  seeLessBtn.style.display = 'block';
+});
+
+seeLessBtn.addEventListener('click', () => {
+  for (let i = 0; i < eachSpeaker.length; i += 1) {
+    if (i > 1) {
+      eachSpeaker[i].style.display = 'none';
+    }
+  }
+  seeMoreBtn.style.display = 'block';
+  seeLessBtn.style.display = 'none';
 });
